@@ -7,6 +7,7 @@ public class PlayerProfile : ScriptableObject
 {
     public new string name;
     public int age;
-    public string education;
+    public int sex;
+    public int education; 
     public List<string> skills;
 }
