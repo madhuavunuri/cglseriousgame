@@ -1208,6 +1208,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382142673}
   m_CullTransparentMesh: 1
+--- !u!1 &384255665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 384255667}
+  - component: {fileID: 384255666}
+  m_Layer: 0
+  m_Name: _pathFinderHelper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &384255666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384255665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca853bb0bb884b4e88cf73991ee02cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNavmeshData: {fileID: 0}
+  gameObjectLibrary: []
+--- !u!4 &384255667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384255665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &403860018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,7 +1894,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833678493}
+        m_TargetAssemblyTypeName: TogleList, Assembly-CSharp
+        m_MethodName: Tickeme
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 667378024}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &671258855
 GameObject:
@@ -2652,53 +2709,20 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833678493}
+        m_TargetAssemblyTypeName: TogleList, Assembly-CSharp
+        m_MethodName: Tickeme
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 851987937}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
---- !u!1 &859112555
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 859112557}
-  - component: {fileID: 859112556}
-  m_Layer: 0
-  m_Name: _pathFinderHelper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &859112556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859112555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca853bb0bb884b4e88cf73991ee02cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNavmeshData: {fileID: 0}
-  gameObjectLibrary: []
---- !u!4 &859112557
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859112555}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890997804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3460,7 +3484,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315446731
 GameObject:
@@ -4746,7 +4770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1735630903}
   - component: {fileID: 1735630905}
-  - component: {fileID: 1735630904}
   m_Layer: 5
   m_Name: s1
   m_TagString: Untagged
@@ -4775,19 +4798,6 @@ RectTransform:
   m_AnchoredPosition: {x: -177, y: -42}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1735630904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1735630902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AllowSwitchOff: 0
 --- !u!114 &1735630905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4834,7 +4844,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833678493}
+        m_TargetAssemblyTypeName: TogleList, Assembly-CSharp
+        m_MethodName: Tickeme
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1735630905}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1737330077
 GameObject:
@@ -5000,6 +5022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1833678492}
+  - component: {fileID: 1833678493}
   m_Layer: 5
   m_Name: ToggleSkills
   m_TagString: Untagged
@@ -5030,6 +5053,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1833678493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833678491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f018bda149f304492d58011f7231f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTogles: 2
+  togs:
+  - {fileID: 1735630905}
+  - {fileID: 1877247014}
+  - {fileID: 667378024}
+  - {fileID: 851987937}
 --- !u!1 &1877247012
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,7 +5155,19 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1833678493}
+        m_TargetAssemblyTypeName: TogleList, Assembly-CSharp
+        m_MethodName: Tickeme
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1877247014}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1882018233
 GameObject:
@@ -5372,7 +5425,7 @@ RectTransform:
   - {fileID: 1628365398}
   - {fileID: 1833678492}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

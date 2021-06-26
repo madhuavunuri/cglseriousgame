@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+
 public class TogleList : MonoBehaviour
 {
     public int maxTogles;
-    int currentTogles;
+    public List<Toggle> togs ;
+    int currentTogles =0 ;
     void Start()
     {
 
@@ -18,24 +19,42 @@ public class TogleList : MonoBehaviour
         
     }
 
-    public void Tickeme()
+    public void Tickeme(Toggle myTogle)
     {
-        string mytext = this.GetComponent<Label>().text;
-        UnityEngine.UI.Toggle myTogle = this.GetComponent<UnityEngine.UI.Toggle>();
         
         
-
         if (currentTogles <= maxTogles)
         {
-            if (myTogle.isOn) { currentTogles++; } else { currentTogles--; }
+            if (myTogle.isOn) { 
+                currentTogles++; 
+            } else { 
+                currentTogles--; 
+            }
         }
 
 
         if (currentTogles == maxTogles)
         {
+            foreach (Toggle tog in togs)
+            {
+                if (tog.isOn==false) { tog.interactable = false; }
+            }
+
             //block the rest
         }
+        else
+        {
+            foreach (Toggle tog in togs)
+            {
+                tog.interactable = true;    
+            }
+        }
 
+    }
+
+    public void pupu()
+    {
+        Debug.Log("3wef");
     }
 
 }
