@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class InternetHubManager : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
+
+    public GameObject[] courseObjects;
+
+    public void SwitchTab(GameObject courseTab)
     {
-        
+        for(int i = 0; i<courseObjects.Length;i++)
+        {
+           courseObjects[i].SetActive(false);
+        }
+        courseTab.gameObject.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OpenCloseSavebtn(GameObject btn)
     {
-        
+        if (btn.activeSelf)
+            btn.SetActive(false);
+        else
+            btn.SetActive(true);
     }
 
 }
