@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446cb3312ae66a3499091bc09152a2bd, type: 3}
+  m_Name: universitiesData
+  m_EditorClassIdentifier: 
+  uniDetails:
+  - collegeName: "University of G\xF6ttingen"
+    course: Applied Computer Science (MSc)
+    address: "Goldschmidtstra\xDFe 7,37077 G\xF6ttingen"
+    requriments: As a requirement for admission to the Master's degree programme,
+      the applicant must have completed at least a six-semester degree programme
+      with conferral of a Bachelor's degree in a degree programme in "Computer Science",
+      or in a closely related discipline comprising at least 180 ECTS credits. The
+      conferral of an equivalent degree earned in a degree programme completed at
+      a German university or a university situated in one of the Bologna signatory
+      states also meets the requirements for admission.
+    info: 'Non-EU applicants: 15 April for the following winter semester and 15 October
+      for the following summer semester EU applicants: 15 June for the following
+      winter semester and 15 December for the following summer semester'
+    deadline: 2
+  - collegeName: "TH K\xF6ln (University of Applied Sciences) "
+    course: Web Science (Master of Science)
+    address: "Gustav-Heinemann-Ufer 54 50968 K\xF6ln"
+    requriments: 'For admission to the Master''s programme "Web Science" (MSc), applicants
+      are required to have successfully completed Bachelor''s studies in one of the
+      following fields: computer science, business administration, design, law, psychology
+      or social science. For graduates in fields other than computer science, the
+      programme board will decide on admission. In addition, applicants must attest
+      to their professional employment in the web domain of at least one year''s
+      duration after graduation (Bachelor''s degree).'
+    info: 'Application deadline: July 31, 2021'
+    deadline: 3
+  - collegeName: Mittweida University of Applied Sciences
+    course: Applied Mathematics for Network and Data Sciences
+    address: Technikumplatz 17 09648 Mittweida
+    requriments: 'English language proficiency is required at minimum level B2 of
+      the Common European Framework of Reference (CEFR). We accept, among others,
+      the following examinations:  TOEFL Internet-based (iBT) at least 79 points,
+      computer-based (CBT) at least 213 points IELTS (International English Language
+      Testing System) at least Band 6.0 Cambridge Certificate: First Certificate
+      in English (FCE) Cambridge English (ESOL) If you have successfully passed previous
+      degree studies in English, you do not need proof of language proficiency.'
+    info: ' 15 May for the following winter semester'
+    deadline: 0
