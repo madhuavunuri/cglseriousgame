@@ -1830,7 +1830,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786427996}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -1856,7 +1856,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Profile
+  m_Text: IL
 --- !u!1 &1792898714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,8 +2211,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a6bc4258fe899cb478d10d8c9b508afd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5940,17 +5940,25 @@ MonoBehaviour:
     m_Options:
     - m_Text: Computers
       m_Image: {fileID: 0}
-    - m_Text: 'Electronics '
+    - m_Text: Games Dev
       m_Image: {fileID: 0}
-    - m_Text: Electrical
-      m_Image: {fileID: 0}
-    - m_Text: Mechanical
-      m_Image: {fileID: 0}
-    - m_Text: Game Development
+    - m_Text: Game Artist
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8677549541223676713}
+        m_TargetAssemblyTypeName: CreateProfile, Assembly-CSharp
+        m_MethodName: OnCourseChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!1 &2882781227453161952
 GameObject:
@@ -6533,6 +6541,7 @@ GameObject:
   - component: {fileID: 2882781227628857933}
   - component: {fileID: 2882781227628857922}
   - component: {fileID: 2882781227628857923}
+  - component: {fileID: 8677549541223676713}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -6623,6 +6632,35 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8677549541223676713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882781227628857920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f2ea09dc861ff4582ac83f730b0d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pname: {fileID: 2882781228388834012}
+  email: {fileID: 2882781227908133356}
+  phone: {fileID: 2882781227182835912}
+  gender: {fileID: 2882781228064022619}
+  study: {fileID: 2882781227383914170}
+  course: {fileID: 2882781227447277393}
+  skillsset: {fileID: 2882781228669952058}
+  userProfile:
+    name: 
+    email: 
+    phone: 
+    course: 
+    gender: 
+    study: 
+    skillset: 
+    batchYear: 0
+    studentID: 0
 --- !u!1 &2882781227658669518
 GameObject:
   m_ObjectHideFlags: 0
@@ -8342,7 +8380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2882781228182362507
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10826,7 +10864,7 @@ GameObject:
   - component: {fileID: 2882781228669952197}
   - component: {fileID: 2882781228669952058}
   m_Layer: 5
-  m_Name: courseTxt (1)
+  m_Name: skill set
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10892,7 +10930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Skills : Programming, WebDesigning , Networking'
+  m_Text: 'Profile Skills : Programming, WebDesigning , Networking'
 --- !u!1 &2882781228691145558
 GameObject:
   m_ObjectHideFlags: 0

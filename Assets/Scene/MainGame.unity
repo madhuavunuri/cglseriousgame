@@ -56993,26 +56993,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 210734322, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1786427998, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_Text
-      value: IL
-      objectReference: {fileID: 0}
-    - target: {fileID: 1786427998, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872500805, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872500805, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a6bc4258fe899cb478d10d8c9b508afd, type: 3}
     - target: {fileID: 2882781227628857920, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
       propertyPath: m_Name
       value: MainCanvas
@@ -57100,14 +57080,6 @@ PrefabInstance:
     - target: {fileID: 2882781227628857932, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2882781228182362504, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2882781228669952058, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
-      propertyPath: m_Text
-      value: 'Profile Skills : Programming, WebDesigning , Networking'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
@@ -57198,6 +57170,10 @@ PrefabInstance:
     - target: {fileID: 8952067806112704986, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
       propertyPath: m_Name
       value: UI_InternetHub
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952067806112704986, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8952067806112704990, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
       propertyPath: m_Pivot.x
