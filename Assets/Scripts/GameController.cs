@@ -18,6 +18,9 @@ public class GameController : MonoBehaviour
             PlayerPrefs.SetInt("Save" + InfoSkillType.Communicator.ToString(), 0);
             PlayerPrefs.SetInt("Save" + InfoSkillType.DecisionMaker.ToString(), 0);
             PlayerPrefs.SetInt("Save" + InfoSkillType.Discoverer.ToString(), 0);
+
+            //Save Day
+            PlayerPrefs.SetInt("Save" + "DayValue", 1);
         }
     }
 

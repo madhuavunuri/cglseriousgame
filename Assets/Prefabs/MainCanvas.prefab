@@ -92,7 +92,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &210734323
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6543,6 +6543,7 @@ GameObject:
   - component: {fileID: 2882781227628857923}
   - component: {fileID: 8677549541223676713}
   - component: {fileID: 2882781228724773703}
+  - component: {fileID: 5312887483176991234}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -6679,6 +6680,20 @@ MonoBehaviour:
   communicatorBar: {fileID: 784369588}
   discovererBar: {fileID: 2132379115}
   dicisionmakerBar: {fileID: 1494826346}
+--- !u!114 &5312887483176991234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882781227628857920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27eb844507690af4c8ba9439ba5a4656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtTime: {fileID: 4132369494464955104}
+  updateFrequency: 0.1
 --- !u!1 &2882781227658669518
 GameObject:
   m_ObjectHideFlags: 0
