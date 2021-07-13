@@ -87,12 +87,12 @@ GameObject:
   - component: {fileID: 210734325}
   - component: {fileID: 210734324}
   m_Layer: 5
-  m_Name: ProfileMenu
+  m_Name: SkillsMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &210734323
 RectTransform:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 784369589}
   - component: {fileID: 784369588}
   m_Layer: 5
-  m_Name: bar (1)
+  m_Name: Communicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.259
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 1203362927}
   - component: {fileID: 1203362926}
   m_Layer: 5
-  m_Name: bar (1)
+  m_Name: Analyser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 1494826347}
   - component: {fileID: 1494826346}
   m_Layer: 5
-  m_Name: bar (1)
+  m_Name: Decision Maker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2001,7 +2001,7 @@ GameObject:
   - component: {fileID: 1858690873}
   - component: {fileID: 1858690872}
   m_Layer: 5
-  m_Name: Achivements
+  m_Name: Analyser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2675,7 +2675,7 @@ GameObject:
   - component: {fileID: 2132379116}
   - component: {fileID: 2132379115}
   m_Layer: 5
-  m_Name: bar (1)
+  m_Name: Discoverer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6542,6 +6542,7 @@ GameObject:
   - component: {fileID: 2882781227628857922}
   - component: {fileID: 2882781227628857923}
   - component: {fileID: 8677549541223676713}
+  - component: {fileID: 2882781228724773703}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -6661,6 +6662,23 @@ MonoBehaviour:
     skillset: 
     batchYear: 0
     studentID: 0
+--- !u!114 &2882781228724773703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882781227628857920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5988163e1dcb74fb26803e21d7c601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_SkillValue: 4
+  analyserBar: {fileID: 1203362926}
+  communicatorBar: {fileID: 784369588}
+  discovererBar: {fileID: 2132379115}
+  dicisionmakerBar: {fileID: 1494826346}
 --- !u!1 &2882781227658669518
 GameObject:
   m_ObjectHideFlags: 0
