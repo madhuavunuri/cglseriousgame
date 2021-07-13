@@ -27,6 +27,8 @@ public class CreateProfile : MonoBehaviour
     //Profile Info
     public ProfileContainer userProfile;
 
+    public string playerName  = "";
+
     private void Awake()
     {
         if (Instance == null)
@@ -98,8 +100,10 @@ public class CreateProfile : MonoBehaviour
             userProfile.course = pc.course;
             userProfile.skillset = pc.skillset;
             userProfile.batchYear = pc.batchYear;
-            userProfile.studentID = pc.studentID; 
+            userProfile.studentID = pc.studentID;
 
+            //Get username for dialogues
+            playerName = pc.name.ToString();
         }
         else
         {
