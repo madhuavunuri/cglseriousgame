@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    public static string diary_address = "Diary_address";
+    public static string diary_application = "Diary_application";
+    public static string diary_course = "Diary_course";
+    public static string diary_deadline = "Diary_deadline";
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +25,13 @@ public class GameController : MonoBehaviour
 
             //Save Day
             PlayerPrefs.SetInt("Save" + "DayValue", 1);
+
+            //Diary Slots Data
+            PlayerPrefs.SetString(diary_address, "");
+            PlayerPrefs.SetString(diary_application, "");
+            PlayerPrefs.SetString(diary_course, "");
+            PlayerPrefs.SetString(diary_deadline, "");
+
         }
     }
 

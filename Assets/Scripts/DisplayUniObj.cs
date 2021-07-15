@@ -18,4 +18,22 @@ public class DisplayUniObj : MonoBehaviour
         else
             btn.SetActive(true);
     }
+
+    public void SaveAddress()
+    {
+        PlayerPrefs.SetString(GameController.diary_address, addressTxt.text);
+    }
+    public void SaveCourse()
+    {
+        PlayerPrefs.SetString(GameController.diary_course, courseTxt.text);
+    }
+    public void SaveApplication()
+    {
+        PlayerPrefs.SetString(GameController.diary_application, requirmentstxt.text);
+    }
+    public void SaveDeadLine()
+    {
+        PlayerPrefs.SetString(GameController.diary_deadline, "DeadLine days : " + deadLine.ToString());
+
+    }
 }
