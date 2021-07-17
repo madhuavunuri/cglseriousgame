@@ -74,8 +74,8 @@ public class CreateProfile : MonoBehaviour
         pc.skillset = userSkill;
 
         //These below elements will to create certificate in Educational Institute
-        pc.batchYear = Random.Range(2011, 2021); //Create random year of passing
-        pc.studentID = Random.Range(15301, 15400); //Create randon student ID
+        pc.batchYear = Random.Range(2010, 2021); //Create random year of passing
+        pc.studentID = Random.Range(150301, 150400); //Create randon student ID
         
         bf.Serialize(file, pc);
         file.Close();

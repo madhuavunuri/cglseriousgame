@@ -60,4 +60,7 @@ public class CharacterMovement : MonoBehaviour
 
         playerAnimator.SetBool("isWalking", isWalking);
     }
+
+    
+  
 }

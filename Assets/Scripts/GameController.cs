@@ -9,6 +9,16 @@ public class GameController : MonoBehaviour
     public static string diary_course = "Diary_course";
     public static string diary_deadline = "Diary_deadline";
 
+    public static string post_CV = "Save_CV";
+    public static string post_LOM = "Save_LOM";
+    public static string post_StudyCertificate = "Save_StudyCertificate";
+
+
+    public static bool isCVCreated = false;
+    public static bool isLOMCreated = false;
+    public static bool isStudyCerttificatCreated = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,10 +37,18 @@ public class GameController : MonoBehaviour
             PlayerPrefs.SetInt("Save" + "DayValue", 1);
 
             //Diary Slots Data
-            PlayerPrefs.SetString(diary_address, "");
-            PlayerPrefs.SetString(diary_application, "");
-            PlayerPrefs.SetString(diary_course, "");
-            PlayerPrefs.SetString(diary_deadline, "");
+            PlayerPrefs.SetString(diary_address, null);
+            PlayerPrefs.SetString(diary_application, null);
+            PlayerPrefs.SetString(diary_course, null);
+            PlayerPrefs.SetString(diary_deadline, null);
+
+            isCVCreated = false;
+            isLOMCreated = false;
+            isStudyCerttificatCreated = false;
+
+            PlayerPrefs.SetString(post_CV, null);
+            PlayerPrefs.SetString(post_LOM, null);
+            PlayerPrefs.SetString(post_StudyCertificate, null);
 
         }
     }
