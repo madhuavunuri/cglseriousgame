@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour
     public static bool isCVCreated = false;
     public static bool isLOMCreated = false;
     public static bool isStudyCerttificatCreated = false;
-
+    public static bool isAddressAvailable = false;
 
     // Start is called before the first frame update
     void Start()

@@ -22,6 +22,7 @@ public class DisplayUniObj : MonoBehaviour
     public void SaveAddress()
     {
         PlayerPrefs.SetString(GameController.diary_address, addressTxt.text);
+        GameController.isAddressAvailable = true;
     }
     public void SaveCourse()
     {
