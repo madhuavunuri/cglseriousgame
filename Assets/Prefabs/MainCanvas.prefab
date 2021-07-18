@@ -8787,7 +8787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2882781228182362507
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10884,6 +10884,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1043825619}
         m_TargetAssemblyTypeName: MainCanvas, Assembly-CSharp
         m_MethodName: EnableWalking
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8677549541223676713}
+        m_TargetAssemblyTypeName: CreateProfile, Assembly-CSharp
+        m_MethodName: SaveProfile
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

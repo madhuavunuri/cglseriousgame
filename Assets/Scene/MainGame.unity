@@ -58236,6 +58236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2882781227628857920, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2882781227628857932, guid: 363e81c4a63094c4c963c5cff537aad1, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -58381,6 +58385,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1064793098}
+    - target: {fileID: 7450818371632651562, guid: 444a183e0dd6cc947a451f649baca1e7, type: 3}
+      propertyPath: assignedID
+      value: 47022
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450818371632651562, guid: 444a183e0dd6cc947a451f649baca1e7, type: 3}
+      propertyPath: assignedIndex
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7450818371632651562, guid: 444a183e0dd6cc947a451f649baca1e7, type: 3}
+      propertyPath: assignedDialogue
+      value: Laura
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 444a183e0dd6cc947a451f649baca1e7, type: 3}
 --- !u!1001 &3379172552900390473
