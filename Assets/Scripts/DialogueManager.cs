@@ -310,7 +310,7 @@ public class DialogueManager : MonoBehaviour
             //Checks for extraData that concerns font size (CrazyCap node 2)
             if (data.extraData[data.commentIndex].Contains("fs"))
             {
-                int fSize = 14;
+                int fSize = 18;
 
                 string[] fontSize = data.extraData[data.commentIndex].Split(","[0]);
                 int.TryParse(fontSize[1], out fSize);
@@ -318,7 +318,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                NPC_Text.fontSize = 14;
+                NPC_Text.fontSize = 18;
             }
         }
     }

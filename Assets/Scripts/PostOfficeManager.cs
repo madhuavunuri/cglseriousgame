@@ -41,18 +41,23 @@ public class PostOfficeManager : MonoBehaviour
     public void CheckSelectedInfo()
     {
         List<string> listDocs = new List<string>();
-        
+        listDocs.Clear();
         for (int i = 0; i < postItemPrefab.Length; i++)
         {
-            if(postItemPrefab[i].isSelected)
+            if (postItemPrefab[i].isSelected)
+            {
                 listDocs.Add(postItemPrefab[i].heading.text);
+               
+            }
         }
         docinfo = "Selected Docs";
 
         foreach (var item in listDocs)
         {
-            docinfo = docinfo + "\n" + item;
+            docinfo +=  "\n" + item;
+          
         }
+        selectedList.text = docinfo;
     }
 
     public void SendPost()

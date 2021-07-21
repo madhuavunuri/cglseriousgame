@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 3123353600808477464}
   - component: {fileID: 3123353600808477465}
   - component: {fileID: 3123353600808477466}
-  - component: {fileID: 7450818371632651562}
+  - component: {fileID: 32273622327259618}
   m_Layer: 0
   m_Name: Interacter
   m_TagString: Ground
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterbutton: {fileID: 3123353601312019766}
---- !u!114 &7450818371632651562
+--- !u!114 &32273622327259618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

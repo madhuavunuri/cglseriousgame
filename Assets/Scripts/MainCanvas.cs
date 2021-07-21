@@ -13,4 +13,6 @@ public class MainCanvas : MonoBehaviour
     {
         CharacterMovement.isAvailable = true;
     }
+
+
 }

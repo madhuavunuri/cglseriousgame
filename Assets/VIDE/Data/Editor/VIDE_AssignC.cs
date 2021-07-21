@@ -417,7 +417,7 @@ public class VIDE_AssignC : Editor
     //Refresh dialogue list
     public void loadFiles()
     {
-        AssetDatabase.Refresh();
+       // AssetDatabase.Refresh();
         d = (VIDE_Assign)target;
 
         TextAsset[] files = Resources.LoadAll<TextAsset>("Dialogues");

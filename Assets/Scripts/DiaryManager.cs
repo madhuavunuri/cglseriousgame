@@ -9,7 +9,7 @@ public class DiaryManager : MonoBehaviour
     public Text calendertxt;
     public Text courseTxt;
     // Start is called before the first frame update
-    void Awake()
+    void OnEnable()
     {
 
         if (PlayerPrefs.GetString(GameController.diary_address, "") != null || PlayerPrefs.GetString(GameController.diary_address, "") != "")

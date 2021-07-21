@@ -4,7 +4,7 @@ using UnityEngine;
 using VIDE_Data;
 public class PopupDialogue : MonoBehaviour
 {
-
+    public GameObject sisterTrigger;
     //Stored current Dialogue object or person
     VIDE_Assign inTrigger;
     void OnTriggerEnter(Collider other)
@@ -26,14 +26,20 @@ public class PopupDialogue : MonoBehaviour
     }
     public void StartTalking()
     {
-
         if (inTrigger)
         {
             DialogueManager.Instance.Interact(inTrigger);
-         
         }
-
-      
+    }
+    public void IntroductionDialogues(VIDE_Assign obj)
+    {
+        DialogueManager.Instance.Interact(obj);
+        inTrigger = obj;
     }
 
+    public void EndsisterDialogue()
+    {
+        sisterTrigger.SetActive(false);
+        inTrigger = null;
+    }
 }

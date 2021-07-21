@@ -1,0 +1,46 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: SisterIntroduction
+---------------------------------
+#NODEID#
+0
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Hey listen ! 
+Wait ... Wrong game
+---------------------------------
+#NODEID#
+1
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Hey, remember you told me you wanted to know more about fake information on the internet ? 
+#COMMENT#
+-Well I have gathered 5 tips you can use, in order to find fake websites. For example :
+---------------------------------
+#NODEID#
+2
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Now you have to go to the internet hub , and then you can check for uni programs. After that, you can start to gather your documents!. 
+
+#COMMENT#
+And remember ! Be careful with the traffic, you don’t have much time! Come again for the rest of the 
+---------------------------------
+#END#
