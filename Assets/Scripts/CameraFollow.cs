@@ -21,7 +21,11 @@ public class CameraFollow : MonoBehaviour
      
         if (followTarget)
         {
-            transform.position = followTarget.position - offset;
+           // transform.position = followTarget.position - offset;
+            Vector3 relativePos = followTarget.position - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
+            transform.rotation = rotation;
+
         }
     }
 }
