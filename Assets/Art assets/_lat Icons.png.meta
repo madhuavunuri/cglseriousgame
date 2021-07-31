@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 93658197eb0129b4aab0ff5eab19f357
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8471042825403256370
+    second: _lat Icons_0
+  - first:
+      213: 464793925370802855
+    second: _lat Icons_1
+  - first:
+      213: -3170034478190465993
+    second: _lat Icons_2
+  - first:
+      213: -464381087176699144
+    second: _lat Icons_3
+  - first:
+      213: -5457970706075510158
+    second: _lat Icons_4
+  - first:
+      213: 1933326934195301666
+    second: _lat Icons_5
+  - first:
+      213: -4363358871676538227
+    second: _lat Icons_6
+  - first:
+      213: -765064354502255888
+    second: _lat Icons_7
+  - first:
+      213: 4712610525827357732
+    second: _lat Icons_8
+  - first:
+      213: -8788815220130071617
+    second: _lat Icons_9
+  - first:
+      213: -4880776572064799154
+    second: _lat Icons_10
+  - first:
+      213: -3790734196058573021
+    second: _lat Icons_11
+  - first:
+      213: -3962236236086307878
+    second: _lat Icons_12
+  - first:
+      213: -3046801604024534932
+    second: _lat Icons_13
+  - first:
+      213: 5449393334276427379
+    second: _lat Icons_14
+  - first:
+      213: -4764569279478411936
+    second: _lat Icons_15
+  - first:
+      213: 4947174856029833247
+    second: _lat Icons_16
+  - first:
+      213: -5549926592727096238
+    second: _lat Icons_17
+  - first:
+      213: 8913518235895196005
+    second: _lat Icons_18
+  - first:
+      213: 3872194911299169480
+    second: _lat Icons_19
+  - first:
+      213: 8090969207751330267
+    second: _lat Icons_20
+  - first:
+      213: 7796405659203445104
+    second: _lat Icons_21
+  - first:
+      213: -4832696742042250575
+    second: _lat Icons_22
+  - first:
+      213: -5446803767715280410
+    second: _lat Icons_23
+  - first:
+      213: 513329131789183121
+    second: _lat Icons_24
+  - first:
+      213: -4414327172055311225
+    second: _lat Icons_25
+  - first:
+      213: 7423301705539276562
+    second: _lat Icons_26
+  - first:
+      213: -449546271378430109
+    second: _lat Icons_27
+  - first:
+      213: 7350109008515853370
+    second: _lat Icons_28
+  - first:
+      213: 4467362395438207440
+    second: _lat Icons_29
+  - first:
+      213: 6195089577080120403
+    second: _lat Icons_30
+  - first:
+      213: 37095195795130351
+    second: _lat Icons_31
+  - first:
+      213: -3952516172148646858
+    second: _lat Icons_32
+  - first:
+      213: 593114402058127970
+    second: _lat Icons_33
+  - first:
+      213: -7765815631497763067
+    second: _lat Icons_34
+  - first:
+      213: 595986349356519759
+    second: _lat Icons_35
+  - first:
+      213: 1727191784643427173
+    second: _lat Icons_36
+  - first:
+      213: -8555452090553303037
+    second: _lat Icons_37
+  - first:
+      213: -6440991858727093250
+    second: _lat Icons_38
+  - first:
+      213: -3071636087742080770
+    second: _lat Icons_39
+  - first:
+      213: -2323465760180066815
+    second: _lat Icons_40
+  - first:
+      213: 5366860392641334156
+    second: _lat Icons_41
+  - first:
+      213: -3865772037269745102
+    second: _lat Icons_42
+  - first:
+      213: 1823978679632927203
+    second: _lat Icons_43
+  - first:
+      213: -4766915617196425312
+    second: _lat Icons_44
+  - first:
+      213: -8012098438363244758
+    second: _lat Icons_45
+  - first:
+      213: -2202335754114790022
+    second: _lat Icons_46
+  - first:
+      213: -8085208221821420389
+    second: _lat Icons_47
+  - first:
+      213: 7355349768913623188
+    second: _lat Icons_48
+  - first:
+      213: -1106873505845329309
+    second: _lat Icons_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _lat Icons_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 633
+        width: 74
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e484571903f8570800000000000000
+      internalID: 8471042825403256370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 631
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a27c7fcc97437600800000000000000
+      internalID: 464793925370802855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 632
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c67b90076c104d0800000000000000
+      internalID: -3170034478190465993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 631
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f25c629cdf2e89f0800000000000000
+      internalID: -464381087176699144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 633
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a91e57f846144b0800000000000000
+      internalID: -5457970706075510158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 635
+        width: 83
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de76b7a9e84da10800000000000000
+      internalID: 1933326934195301666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 631
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82bb2a693c3273c0800000000000000
+      internalID: -4363358871676538227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_7
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 631
+        width: 72
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5497e502f165f0800000000000000
+      internalID: -765064354502255888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 506
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cd4b40e4e866140800000000000000
+      internalID: 4712610525827357732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 508
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbb9975f1bd70680800000000000000
+      internalID: -8788815220130071617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 504
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e466702319ff34cb0800000000000000
+      internalID: -4880776572064799154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 507
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327b006355b946bc0800000000000000
+      internalID: -3790734196058573021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_12
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 506
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad315e7d22f4309c0800000000000000
+      internalID: -3962236236086307878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 507
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68f603751697b5d0800000000000000
+      internalID: -3046801604024534932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_14
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 506
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e8dea8d5220ab40800000000000000
+      internalID: 5449393334276427379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_15
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 510
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d43fceb79d0edb0800000000000000
+      internalID: -4764569279478411936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 87
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18076ff155e7a440800000000000000
+      internalID: 4947174856029833247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 381
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254e10f2b23baf2b0800000000000000
+      internalID: -5549926592727096238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 378
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569ef751c9d23bb70800000000000000
+      internalID: 8913518235895196005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_19
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 379
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccef0d81ccccb530800000000000000
+      internalID: 3872194911299169480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 384
+        width: 95
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd944ac60a5e84070800000000000000
+      internalID: 8090969207751330267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_21
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 378
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071aaa1d3a5623c60800000000000000
+      internalID: 7796405659203445104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_22
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 376
+        width: 58
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25267faefceecb0800000000000000
+      internalID: -4832696742042250575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_23
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 380
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e94218e4d01964b0800000000000000
+      internalID: -5446803767715280410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 255
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19867292026bf1700800000000000000
+      internalID: 513329131789183121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 259
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cd94b33d82db2c0800000000000000
+      internalID: -4414327172055311225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_26
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 258
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f4833229dd40760800000000000000
+      internalID: 7423301705539276562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 273
+        width: 96
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36723684c04e2c9f0800000000000000
+      internalID: -449546271378430109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_28
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 257
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6cf06335d00660800000000000000
+      internalID: 7350109008515853370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 253
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15807fd624ffd30800000000000000
+      internalID: 4467362395438207440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_30
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 253
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354e599b52169f550800000000000000
+      internalID: 6195089577080120403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_31
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 252
+        width: 63
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe70e3052e9c38000800000000000000
+      internalID: 37095195795130351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd7169b77d529c0800000000000000
+      internalID: -3952516172148646858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 128
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ac7ddf76a2b3800800000000000000
+      internalID: 593114402058127970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_34
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 127
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507666504d74a3490800000000000000
+      internalID: -7765815631497763067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_35
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 138
+        width: 88
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4190645d6e554800800000000000000
+      internalID: 595986349356519759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_36
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 131
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bf4aee6c738f710800000000000000
+      internalID: 1727191784643427173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_37
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 130
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30082b107ade44980800000000000000
+      internalID: -8555452090553303037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_38
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 130
+        width: 68
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb7363c7000d96a0800000000000000
+      internalID: -6440991858727093250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_39
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 129
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8dcde904b5f55d0800000000000000
+      internalID: -3071636087742080770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1062fac833461cfd0800000000000000
+      internalID: -2323465760180066815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_41
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 5
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b008e971bea7a40800000000000000
+      internalID: 5366860392641334156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_42
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 15
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23216e750d40a5ac0800000000000000
+      internalID: -3865772037269745102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_43
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 3
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9186df1f2105910800000000000000
+      internalID: 1823978679632927203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_44
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4
+        width: 91
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afbeba908388ddb0800000000000000
+      internalID: -4766915617196425312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_45
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 4
+        width: 72
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2795e39bee4fc090800000000000000
+      internalID: -8012098438363244758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_46
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 2
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d88d3dc4bbf61e0800000000000000
+      internalID: -2202335754114790022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_47
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 23
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c3443a5f19bcf80800000000000000
+      internalID: -8085208221821420389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_48
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49819def4a3731660800000000000000
+      internalID: 7355349768913623188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _lat Icons_49
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3624cc0396893a0f0800000000000000
+      internalID: -1106873505845329309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
