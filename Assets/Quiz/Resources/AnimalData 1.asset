@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: AnimalData 1
+  m_EditorClassIdentifier: 
+  categoryName: Interview
+  questions:
+  - questionInfo: Hello. I am Tom.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Hello, it's nice to meet you.
+    - Hello, it's nice to meet you.
+    - Hello, it's nice to meet you.
+    correctAns: Hello, it's nice to meet you.
+  - questionInfo: Which animal can climb trees?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - I am doing well and yourself?
+    - I am doing well and yourself?
+    - I am doing well and yourself?
+    - I am doing well and yourself?
+    correctAns: I am doing well and yourself?
+  - questionInfo: Great, thanks Jorge. Shall we start?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Yeah, sure.
+    - Yeah, sure.
+    - Yeah, sure.
+    - Yeah, sure.
+    correctAns: Yeah, sure.
+  - questionInfo: First of all, let me introduce myself. I am Tom, the Head of Computer
+      Science Department in the University. I have been teaching for 20 years. I
+      will be asking you to take your interview for the admission. You can ask any
+      questions about the course and University at the end, but as it is a masters
+      program, we also expect you to have your own research about the university
+      and course. In fact, that shows us how motivated and dedicated you are.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Yes sir, I did research a lot before applying here. I am confident that I am
+      one of the potential candidates.
+    - Yes sir, I did research a lot before applying here. I am confident that I am
+      one of the potential candidates.
+    - Yes sir, I did research a lot before applying here. I am confident that I am
+      one of the potential candidates.
+    - Yes sir, I did research a lot before applying here. I am confident that I am
+      one of the potential candidates.
+    correctAns: Yes sir, I did research a lot before applying here. I am confident
+      that I am one of the potential candidates.
+  - questionInfo: Slowest animal on the earth?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cheeta
+    - Sloth
+    - Leapord
+    - Tortois
+    correctAns: Sloth

@@ -35,7 +35,7 @@ public class QuizManager : MonoBehaviour
         currentCategory = category;
         correctAnswerCount = 0;
         gameScore = 0;
-        lifesRemaining = 3;
+        lifesRemaining = 500;
         currentTime = timeInSeconds;
         //set the questions data
         questions = new List<Question>();
@@ -45,20 +45,32 @@ public class QuizManager : MonoBehaviour
         SelectQuestion();
         gameStatus = GameStatus.PLAYING;
     }
-
+    int val = -1;
     /// <summary>
     /// Method used to randomly select the question form questions data
     /// </summary>
     private void SelectQuestion()
     {
+       
         //get the random number
-        int val = UnityEngine.Random.Range(0, questions.Count);
-        //set the selectedQuetion
-        selectedQuetion = questions[val];
-        //send the question to quizGameUI
-        quizGameUI.SetQuestion(selectedQuetion);
+      
+       val++;
+       //int val = UnityEngine.Random.Range(0, questions.Count);
+       if(val >= questions.Count)
+        {
+            GameEnd();
+        }
+       else
+        {
+            //set the selectedQuetion
+            selectedQuetion = questions[val];
+            //send the question to quizGameUI
+            quizGameUI.SetQuestion(selectedQuetion);
+        }
 
-        questions.RemoveAt(val);
+       
+
+       // questions.RemoveAt(val);
     }
 
     private void Update()

@@ -33,8 +33,11 @@ public class GameController : MonoBehaviour
             //Set first values for the game
             PlayerPrefs.SetInt("LoadGameFirstTime", 1);
 
-            
-            
+
+            PlayerPrefs.SetInt("Selected", 0);
+            PlayerPrefs.SetInt("Interview", 0);
+
+
             //Reset all Information literacy skills for first time loading game
             PlayerPrefs.SetInt("Save" + InfoSkillType.Analyser.ToString(), 0);
             PlayerPrefs.SetInt("Save" + InfoSkillType.Communicator.ToString(), 0);
@@ -87,6 +90,9 @@ public class GameController : MonoBehaviour
     {
         //Set first values for the game
         PlayerPrefs.SetInt("LoadGameFirstTime", 1);
+
+        PlayerPrefs.SetInt("Selected", 0);
+        PlayerPrefs.SetInt("Interview", 0);
 
         //Reset all Information literacy skills for first time loading game
         PlayerPrefs.SetInt("Save" + InfoSkillType.Analyser.ToString(), 0);

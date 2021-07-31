@@ -20,6 +20,10 @@ public class InternetHubManager : MonoBehaviour
     public Button emailBtn;
     public Text application_messgae;
     public Text emaiBtnTxt;
+    public GameObject attendInterviewBtn;
+    public GameObject FinishGameBtn;
+    public GameObject EmailCloseBtn;
+
 
     private void Awake()
     {
@@ -82,21 +86,43 @@ public class InternetHubManager : MonoBehaviour
 
     public void OpenEmail()
     {
-        if(PlayerPrefs.GetInt("isFack_ID", 0) == 0)
+        attendInterviewBtn.SetActive(false);
+        EmailCloseBtn.SetActive(true);
+        FinishGameBtn.SetActive(false);
+
+        if (PlayerPrefs.GetInt("isFack_ID", 0) == 0)
         {
             application_messgae.text = "Rejected" + "\n" + "Fake Info";
+            PlayerPrefs.SetInt("Selected", 0);
         }
         else if (PlayerPrefs.GetInt("Course_ID", 0) != PlayerPrefs.GetInt("College_ID", 0))
         {
             application_messgae.text = "Rejected"+"\n"+"Wrong LOM";
+            PlayerPrefs.SetInt("Selected", 0);
         }
         else if(PlayerPrefs.GetInt("Course_ID", 0) != PlayerPrefs.GetInt("Address_ID", 0))
         {
             application_messgae.text = "Rejected" + "\n" + "Wrong Address";
+            PlayerPrefs.SetInt("Selected", 0);
         }   
         else
         {
+            PlayerPrefs.SetInt("Selected", 1);
             application_messgae.text = "Selected";
+        }
+
+
+        if(PlayerPrefs.GetInt("Selected") != 0)
+        {
+            attendInterviewBtn.SetActive(true);
+            EmailCloseBtn.SetActive(true);
+            FinishGameBtn.SetActive(false);
+        }
+        else
+        {
+            attendInterviewBtn.SetActive(false);
+            EmailCloseBtn.SetActive(false);
+            FinishGameBtn.SetActive(true);
         }
     }
 }

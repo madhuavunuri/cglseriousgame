@@ -93,10 +93,17 @@ public class QuizGameUI : MonoBehaviour
         //assign options to respective option buttons
         for (int i = 0; i < options.Count; i++)
         {
+            options[i].gameObject.SetActive(false);
+           
             //set the child text
-            options[i].GetComponentInChildren<Text>().text = ansOptions[i];
-            options[i].name = ansOptions[i];    //set the name of button
-            options[i].image.color = normalCol; //set color of button to normal
+            if (i < ansOptions.Count)
+            {
+                options[i].gameObject.SetActive(true);
+                options[i].GetComponentInChildren<Text>().text = ansOptions[i];
+                options[i].name = ansOptions[i];    //set the name of button
+                options[i].image.color = normalCol; //set color of button to normal
+            }
+           
         }
 
         answered = false;
@@ -189,6 +196,11 @@ public class QuizGameUI : MonoBehaviour
             //Add listner to button which calls CategoryBtn method
             categoryBtn.Btn.onClick.AddListener(() => CategoryBtn(index, quizManager.QuizData[index].categoryName));
         }
+    }
+
+    public void StartQuit()
+    {
+        CategoryBtn(0, quizManager.QuizData[0].categoryName);
     }
 
     //Method called by Category Button

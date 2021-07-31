@@ -12,60 +12,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
   m_Name: AnimalData
   m_EditorClassIdentifier: 
-  categoryName: Animal
+  categoryName: Interview
   questions:
-  - questionInfo: Which animal eats Deer?
+  - questionInfo: Hello. I am Tom.
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - Lion
-    - Elephant
-    - Goat
-    - Monkey
-    correctAns: Lion
-  - questionInfo: Which animal can climb trees?
+    - Hello, it's nice to meet you.
+    correctAns: Hello, it's nice to meet you.
+  - questionInfo: Nice to meet you too. How are you doing today?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - Zebra
-    - Bear
-    - Hyna
-    - Monkey
-    correctAns: Monkey
-  - questionInfo: Which of the following animal is Herbivorous?
+    - I am doing well and yourself?
+    correctAns: I am doing well and yourself?
+  - questionInfo: Great, thanks Jorge. Shall we start?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - Crocodile
-    - Moose
-    - Bear
-    - Panther
-    correctAns: Moose
-  - questionInfo: Who can walk on 2 legs?
+    - Yeah, sure.
+    correctAns: Yeah, sure.
+  - questionInfo: First of all, let me introduce myself. I am Tom, the Head of Computer
+      Science Department in the University. I have been teaching for 20 years. I
+      will be asking you to take your interview for the admission. You can ask any
+      questions about the course and University at the end, but as it is a masters
+      program, we also expect you to have your own research about the university
+      and course. In fact, that shows us how motivated and dedicated you are.
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - Dog
-    - Cat
-    - Human
-    - Turtle
-    correctAns: Human
-  - questionInfo: Slowest animal on the earth?
+    - Yes sir, I did research a lot before applying here. I am confident that I am
+      one of the potential candidates.
+    correctAns: Yes sir, I did research a lot before applying here. I am confident
+      that I am one of the potential candidates.
+  - questionInfo: Great. That is good to know. Could you please give a very small
+      introduction about yourself.
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - Cheeta
-    - Sloth
-    - Leapord
-    - Tortois
-    correctAns: Sloth
+    - I am 23 years old. I graduated with a  bachelors in Computer science. I love
+      programming and developing software.
+    - I am 23 years old. I am a recent graduate of bachelors in Fine Arts. I like
+      to paint and draw.
+    correctAns: I am 23 years old. I graduated with a  bachelors in Computer science.
+      I love programming and developing software.
+  - questionInfo: OK. Why did you apply to this university for this course?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Because I liked the approach this University takes to my course. I also looked
+      into the facilities provided like Computer labs, Libraries etc which are second
+      to none.
+    - Because I liked the approach this takes to my course. I also looked into the
+      facilities provided like swimming pool, party clubs etc which are second to
+      none.
+    correctAns: Because I liked the approach this University takes to my course.
+      I also looked into the facilities provided like Computer labs, Libraries etc
+      which are second to none.
+  - questionInfo: That's great. As a Masters student, I expect you to be aware of
+      University and course details. That shows your interest and research skills.
+      So, where is our university located?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Munich
+    - Cologne
+    correctAns: Munich
+  - questionInfo: That's right! Very good. Can you tell me what is the duration of
+      this course?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 5 years
+    - 2 years
+    correctAns: 2 years
+  - questionInfo: That's right! Very good. You did your research. I appreciate that.
+      Now, what are your academic strengths?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - I am very good at programming and problem solving. I even made a small game
+      using c++ in my highschool which you could have seen in my cv.
+    - I am very good at digital art and painting. I made a lot of concept art for
+      different environments which you can see on my website.
+    correctAns: I am very good at programming and problem solving. I even made a
+      small game using c++ in my highschool which you could have seen in my cv.
+  - questionInfo: Great. It was nice talking to you Jorge. You will get your results
+      within 2 weeks.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Thank you !
+    correctAns: Thank you !
