@@ -14,7 +14,9 @@ public class PostOfficeManager : MonoBehaviour
     public GameObject postData;
     public GameObject message;
 
-  
+    public GameObject missingDocMenu;
+    public GameObject postDocMenu;
+
   
     // Start is called before the first frame update
     void OnEnable()
@@ -37,6 +39,7 @@ public class PostOfficeManager : MonoBehaviour
             postData.SetActive(false);
             homeMenu.SetActive(false);
         }
+        CheckSelectedInfo();
     }
 
     public void CheckPostDocs()
@@ -85,6 +88,7 @@ public class PostOfficeManager : MonoBehaviour
 
     public void SendPost()
     {
+
         GameController.isPostSent = true;
        
         message.SetActive(true);
@@ -97,5 +101,20 @@ public class PostOfficeManager : MonoBehaviour
     public void ValidatePost()
     {
 
+    }
+
+    public void PosTButton()
+    {
+
+        if (GameController.isCVCreated == false || GameController.isAddressAvailable == false ||
+            GameController.isStudyCerttificatCreated == false || GameController.isLOMCreated == false)
+        {
+            missingDocMenu.SetActive(true);
+            return;
+        }
+        else
+        {
+            postDocMenu.SetActive(true);
+        }
     }
 }

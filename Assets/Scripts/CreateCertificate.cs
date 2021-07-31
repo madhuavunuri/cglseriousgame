@@ -12,14 +12,22 @@ public class CreateCertificate : MonoBehaviour
     public Text studyDatatxt;
     public Text responceTxt;
     string studyData = null;
+
+    public GameObject SearchCertificateBtn;
+
     // Start is called before the first frame update
     void OnEnable()
     {
         contentObj.SetActive(false);
         if (studyData != null)
+        {
             studyDatatxt.text = studyData;
+            SearchCertificateBtn.SetActive(false);
+        }
         else
-            studyDatatxt.text = "Get Certificate";
+            studyDatatxt.text = "Get your certificate with correct year and ID";
+
+        
 
         responceTxt.text = "Get Your Certificate";
         batchYear.options.Clear();
@@ -62,6 +70,7 @@ public class CreateCertificate : MonoBehaviour
             studyDatatxt.text = studyData;
             PlayerPrefs.SetString(GameController.post_StudyCertificate, studyData);
             contentObj.SetActive(false);
+            SearchCertificateBtn.SetActive(false);
 
         }
         else

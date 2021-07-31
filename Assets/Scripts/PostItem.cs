@@ -54,6 +54,6 @@ public class PostItem : MonoBehaviour
     {
         isSelected = selectToogle.isOn;
         PostOfficeManager.Instance.CheckSelectedInfo();
-        print("aksjdkla");
+        
     }
 }

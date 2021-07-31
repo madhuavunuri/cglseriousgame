@@ -17423,7 +17423,7 @@ Transform:
   m_LocalScale: {x: -5.376, y: -3.5280008, z: 1.4000002}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &735877102
 PrefabInstance:
@@ -57864,7 +57864,7 @@ Transform:
   - {fileID: 1236023841}
   - {fileID: 842493452}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105669701
 PrefabInstance:
@@ -58772,7 +58772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7865525871000491458, guid: 093e4189f1768194393eb0fd9f9b4624, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7865525871000491458, guid: 093e4189f1768194393eb0fd9f9b4624, type: 3}
       propertyPath: m_AnchorMax.x
@@ -59361,10 +59361,6 @@ PrefabInstance:
     - target: {fileID: 8952067806112704986, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
       propertyPath: m_Name
       value: UI_InternetHub
-      objectReference: {fileID: 0}
-    - target: {fileID: 8952067806112704986, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8952067806112704990, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
       propertyPath: m_Pivot.x

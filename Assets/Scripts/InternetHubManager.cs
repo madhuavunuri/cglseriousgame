@@ -44,7 +44,7 @@ public class InternetHubManager : MonoBehaviour
     }
     void Start()
     {
-        print("@@@@@@@@@@@@@asdasd");
+        
         courseUiObjects = new DisplayUniObj[uniInfo.uniDetails.Length];
         //Load and create uni objects in UI
         for (int i = 0; i < uniInfo.uniDetails.Length; i++)
@@ -67,7 +67,7 @@ public class InternetHubManager : MonoBehaviour
 
             GameObject Btnobj = Instantiate(courseBtnPrefab, courseBtnParent);
             Btnobj.GetComponent<SwitchCoursebtn>().courseTab = i;
-            Btnobj.GetComponent<SwitchCoursebtn>().numbertxt.text = "Course "+i;
+            Btnobj.GetComponent<SwitchCoursebtn>().numbertxt.text = (i+1).ToString();// "Course "+i;
 
         }
     }
@@ -84,7 +84,7 @@ public class InternetHubManager : MonoBehaviour
     {
         if(PlayerPrefs.GetInt("isFack_ID", 0) == 0)
         {
-            application_messgae.text = "Rejected" + "\n" + "Fack Info";
+            application_messgae.text = "Rejected" + "\n" + "Fake Info";
         }
         else if (PlayerPrefs.GetInt("Course_ID", 0) != PlayerPrefs.GetInt("College_ID", 0))
         {
