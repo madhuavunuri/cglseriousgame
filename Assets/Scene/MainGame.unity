@@ -59362,6 +59362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_InternetHub
       objectReference: {fileID: 0}
+    - target: {fileID: 8952067806112704986, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8952067806112704990, guid: c6d00f17e5e650f44a8077fc67f8d5bf, type: 3}
       propertyPath: m_Pivot.x
       value: 0
