@@ -25,7 +25,7 @@ public class PostOfficeManager : MonoBehaviour
         selectedList.text = "Selected Docs";
         CheckPostDocs();
 
-        if(GameController.isPostSent)
+        if(!GameController.isPostSent)
         {
             message.SetActive(false);
             postData.SetActive(false);
