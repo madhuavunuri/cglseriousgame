@@ -27,6 +27,7 @@ public class InternetHubManager : MonoBehaviour
     //Interview 
     public GameObject InterviewPannel;
 
+
     private void Awake()
     {
         //Instance object for this InternetHubManager
@@ -92,7 +93,7 @@ public class InternetHubManager : MonoBehaviour
         EmailCloseBtn.SetActive(true);
         FinishGameBtn.SetActive(false);
 
-        if (PlayerPrefs.GetInt("isFack_ID", 0) == 0)
+        if (PlayerPrefs.GetInt("isFack_ID", 0) == 1)
         {
             application_messgae.text = "Rejected" + "\n" + "Fake Info";
             PlayerPrefs.SetInt("Selected", 0);

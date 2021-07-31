@@ -56,7 +56,7 @@ public class GameController : MonoBehaviour
             isCVCreated = false;
             isLOMCreated = false;
             isStudyCerttificatCreated = false;
-
+            isAddressAvailable = false;
             PlayerPrefs.SetString(post_CV, null);
             PlayerPrefs.SetString(post_LOM, null);
             PlayerPrefs.SetString(post_StudyCertificate, null);
@@ -81,7 +81,10 @@ public class GameController : MonoBehaviour
         {
             isStudyCerttificatCreated = true;
         }
-
+        if(PlayerPrefs.GetString(diary_address) != null)
+        {
+            isAddressAvailable = true;
+        }
 
 
     }

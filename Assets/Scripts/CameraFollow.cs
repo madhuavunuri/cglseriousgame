@@ -35,8 +35,9 @@ public class CameraFollow : MonoBehaviour
             {
                 //transform.position = followTarget.position - offset;
             }
-            
 
+
+             transform.position = followTarget.position - offset;
 
         }
     }
