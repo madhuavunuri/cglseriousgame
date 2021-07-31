@@ -7532,9 +7532,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af9b25a8eed05e4aa02be95096f012c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uniData: {fileID: 11400000, guid: 4a709f3356a2b1e469f8bdcdccbea69d, type: 2}
   course: {fileID: 1813881142887389312}
   college: {fileID: 1813881144054800053}
   lomDatatxt: {fileID: 1813881144789922008}
+  Ids: 
 --- !u!114 &1813881143686830049
 MonoBehaviour:
   m_ObjectHideFlags: 0

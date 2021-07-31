@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
     public static bool isStudyCerttificatCreated = false;
     public static bool isAddressAvailable = false;
 
+    public static bool isPostSent = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +50,12 @@ public class GameController : MonoBehaviour
             PlayerPrefs.SetString(post_CV, null);
             PlayerPrefs.SetString(post_LOM, null);
             PlayerPrefs.SetString(post_StudyCertificate, null);
+
+            PlayerPrefs.SetInt("Address_ID", 0);
+            PlayerPrefs.SetInt("Course_ID", 0);
+            PlayerPrefs.SetInt("College_ID", 0);
+            PlayerPrefs.SetInt("isFack_ID", 0);
+
 
         }
     }

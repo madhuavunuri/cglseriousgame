@@ -80,6 +80,7 @@ public class CreateProfile : MonoBehaviour
         bf.Serialize(file, pc);
         file.Close();
         LoadProfileData();
+        PlayerPrefs.DeleteAll();
     }
 
     public void LoadProfileData()

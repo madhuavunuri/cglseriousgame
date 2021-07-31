@@ -11,6 +11,8 @@ public class UniversitiesData : ScriptableObject
 [System.Serializable]
 public class UniDetails
 {
+    public bool isFack = true;
+    public int ID;
     public string collegeName;
     public string course;
     public string address;

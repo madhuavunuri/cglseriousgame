@@ -19,6 +19,7 @@ public class LOMDropDown : MonoBehaviour
             for (int i = 0; i < uniData.uniDetails.Length; i++)
             {
                 items.Add(uniData.uniDetails[i].collegeName);
+                
             }
         }
         else
@@ -32,10 +33,13 @@ public class LOMDropDown : MonoBehaviour
 
         foreach (var item in items)
         {
-            dropdown.options.Add(new Dropdown.OptionData() { text = item });
+            dropdown.options.Add(new Dropdown.OptionData() 
+            { 
+                text = item 
+            });
+           
         }
-       // DropDoenItem(dropdown);
-       // dropdown.onValueChanged.AddListener(delegate { DropDoenItem(dropdown); });
+      
     }
 
     void DropDoenItem(Dropdown dropdown)

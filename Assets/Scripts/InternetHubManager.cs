@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class InternetHubManager : MonoBehaviour
 {
     public static InternetHubManager Instance;
@@ -16,6 +16,11 @@ public class InternetHubManager : MonoBehaviour
     public GameObject courseBtnPrefab;
     public Transform courseBtnParent;
 
+    //Email System
+    public Button emailBtn;
+    public Text application_messgae;
+    public Text emaiBtnTxt;
+
     private void Awake()
     {
         //Instance object for this InternetHubManager
@@ -23,8 +28,23 @@ public class InternetHubManager : MonoBehaviour
             Instance = this;
 
     }
+
+    private void OnEnable()
+    {
+        if(GameController.isPostSent)
+        {
+            emaiBtnTxt.text = "Open";
+            emailBtn.interactable = true;
+        }
+        else
+        {
+            emailBtn.interactable = false;
+            emaiBtnTxt.text = "Locked";
+        }
+    }
     void Start()
     {
+        print("@@@@@@@@@@@@@asdasd");
         courseUiObjects = new DisplayUniObj[uniInfo.uniDetails.Length];
         //Load and create uni objects in UI
         for (int i = 0; i < uniInfo.uniDetails.Length; i++)
@@ -37,6 +57,9 @@ public class InternetHubManager : MonoBehaviour
             obj.infotxt.text = uniInfo.uniDetails[i].info;
             obj.requirmentstxt.text = uniInfo.uniDetails[i].requriments;
             obj.deadLine = uniInfo.uniDetails[i].deadline;
+            obj.ID = uniInfo.uniDetails[i].ID;
+            obj.isfack = uniInfo.uniDetails[i].isFack;
+
             courseUiObjects[i] = obj;
            
             if (i > 0)
@@ -57,5 +80,23 @@ public class InternetHubManager : MonoBehaviour
         courseTab.gameObject.SetActive(true);
     }
 
-    
+    public void OpenEmail()
+    {
+        if(PlayerPrefs.GetInt("isFack_ID", 0) == 0)
+        {
+            application_messgae.text = "Rejected" + "\n" + "Fack Info";
+        }
+        else if (PlayerPrefs.GetInt("Course_ID", 0) != PlayerPrefs.GetInt("College_ID", 0))
+        {
+            application_messgae.text = "Rejected"+"\n"+"Wrong LOM";
+        }
+        else if(PlayerPrefs.GetInt("Course_ID", 0) != PlayerPrefs.GetInt("Address_ID", 0))
+        {
+            application_messgae.text = "Rejected" + "\n" + "Wrong Address";
+        }   
+        else
+        {
+            application_messgae.text = "Selected";
+        }
+    }
 }

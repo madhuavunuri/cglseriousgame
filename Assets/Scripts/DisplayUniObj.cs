@@ -10,6 +10,8 @@ public class DisplayUniObj : MonoBehaviour
     public Text requirmentstxt;
     public Text infotxt;
     public int deadLine;
+    public int ID;
+    public bool isfack = false;
 
     public void OpenCloseSavebtn(GameObject btn)
     {
@@ -23,6 +25,16 @@ public class DisplayUniObj : MonoBehaviour
     {
         PlayerPrefs.SetString(GameController.diary_address, addressTxt.text);
         GameController.isAddressAvailable = true;
+        PlayerPrefs.SetInt("Address_ID", ID);
+
+        if(isfack == false)
+        {
+            PlayerPrefs.SetInt("isFack_ID", 0);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("isFack_ID", 1);
+        }
     }
     public void SaveCourse()
     {

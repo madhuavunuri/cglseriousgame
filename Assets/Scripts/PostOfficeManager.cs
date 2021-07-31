@@ -10,6 +10,12 @@ public class PostOfficeManager : MonoBehaviour
 
     public Text selectedList;
     string docinfo;
+    public GameObject homeMenu;
+    public GameObject postData;
+    public GameObject message;
+
+  
+  
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -18,6 +24,19 @@ public class PostOfficeManager : MonoBehaviour
 
         selectedList.text = "Selected Docs";
         CheckPostDocs();
+
+        if(GameController.isPostSent)
+        {
+            message.SetActive(false);
+            postData.SetActive(false);
+            homeMenu.SetActive(true);
+        }
+        else
+        {
+            message.SetActive(true);
+            postData.SetActive(false);
+            homeMenu.SetActive(false);
+        }
     }
 
     public void CheckPostDocs()
@@ -55,14 +74,24 @@ public class PostOfficeManager : MonoBehaviour
         foreach (var item in listDocs)
         {
             docinfo +=  "\n" + item;
-          
         }
         selectedList.text = docinfo;
+
+        print("Add -" + PlayerPrefs.GetInt("Address_ID", 0)+
+        "Course - "+PlayerPrefs.GetInt("Course_ID", 0)+
+        "College - "+PlayerPrefs.GetInt("College_ID", 0)+
+       "Facke - "+ PlayerPrefs.GetInt("isFack_ID", 0));
     }
 
     public void SendPost()
     {
-        Debug.Log("Documents Posted");
+        GameController.isPostSent = true;
+       
+        message.SetActive(true);
+        postData.SetActive(false);
+        homeMenu.SetActive(false);
+
+         Debug.Log("Documents Posted");
     }
 
     public void ValidatePost()
