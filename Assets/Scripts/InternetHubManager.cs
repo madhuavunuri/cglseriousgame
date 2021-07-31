@@ -24,6 +24,8 @@ public class InternetHubManager : MonoBehaviour
     public GameObject FinishGameBtn;
     public GameObject EmailCloseBtn;
 
+    //Interview 
+    public GameObject InterviewPannel;
 
     private void Awake()
     {

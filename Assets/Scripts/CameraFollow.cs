@@ -27,7 +27,7 @@ public class CameraFollow : MonoBehaviour
                // Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
                // transform.rotation = rotation;
 
-                print(transform.rotation);
+               // print(transform.rotation);
                // print(relativePos);
 
             }
