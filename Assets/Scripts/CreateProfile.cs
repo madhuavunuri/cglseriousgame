@@ -28,19 +28,31 @@ public class CreateProfile : MonoBehaviour
     public ProfileContainer userProfile;
 
     public string playerName  = "";
-
+    public GameObject createProfileMenu;
     private void Awake()
     {
         if (Instance == null)
             Instance = this;
-
-        LoadProfileData();
     }
     // Start is called before the first frame update
     void Start()
     {
+
+        if (File.Exists(Application.persistentDataPath + "/userprofilecontainer.dat"))
+        {
+            createProfileMenu.SetActive(false);
+            CharacterMovement.isAvailable = true;
+        }
+        else
+        {
+            createProfileMenu.SetActive(true);
+        }
+
+        LoadProfileData();
         skillsset.text = skillData[0];
         userSkill = skillData[0];
+
+        
     }
  
     public void OnCourseChange()
@@ -80,7 +92,7 @@ public class CreateProfile : MonoBehaviour
         bf.Serialize(file, pc);
         file.Close();
         LoadProfileData();
-        PlayerPrefs.DeleteAll();
+        GameController.Instance.ResetGameData();
     }
 
     public void LoadProfileData()

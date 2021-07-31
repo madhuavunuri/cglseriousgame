@@ -22,6 +22,7 @@ public class CharacterMovement : MonoBehaviour
     private void Start()
     {
         isAvailable = false;
+      
     }
     // Update is called once per frame
     void Update()

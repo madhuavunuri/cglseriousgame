@@ -15,6 +15,11 @@ public class CreateLOM : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        if(GameController.isLOMCreated)
+        {
+            lomData = PlayerPrefs.GetString(GameController.post_LOM);
+        }
+
         if (lomData != null)
             lomDatatxt.text = lomData;
         else

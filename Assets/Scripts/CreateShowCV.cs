@@ -14,6 +14,10 @@ public class CreateShowCV : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        if (GameController.isCVCreated)
+        {
+            cvData =  PlayerPrefs.GetString(GameController.post_CV);
+        }
         if (cvData != null)
             cvDatatxt.text = cvData;
         else

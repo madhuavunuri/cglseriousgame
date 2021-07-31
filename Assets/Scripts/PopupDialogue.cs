@@ -7,6 +7,14 @@ public class PopupDialogue : MonoBehaviour
     public GameObject sisterTrigger;
     //Stored current Dialogue object or person
     VIDE_Assign inTrigger;
+
+    private void Start()
+    {
+        if (CharacterMovement.isAvailable == true)
+        {
+            EndsisterDialogue();
+        }
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<VIDE_Assign>() != null)
