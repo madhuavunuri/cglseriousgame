@@ -12,7 +12,7 @@ public class QuizGameUI : MonoBehaviour
     [SerializeField] private GameObject scrollHolder;
     [SerializeField] private Text scoreText, timerText;
     [SerializeField] private List<Image> lifeImageList;
-    [SerializeField] private GameObject gameOverPanel, mainMenu, gamePanel;
+    [SerializeField] private GameObject gameOverPanel, mainMenu, gamePanel , gameoverFail;
     [SerializeField] private Color correctCol, wrongCol, normalCol, selectedCol; //color of buttons
     [SerializeField] private Image questionImg;                     //image component to show image
     [SerializeField] private UnityEngine.Video.VideoPlayer questionVideo;   //to show video
@@ -29,7 +29,8 @@ public class QuizGameUI : MonoBehaviour
 
     public Text TimerText { get => timerText; }                     //getter
     public Text ScoreText { get => scoreText; }                     //getter
-    public GameObject GameOverPanel { get => gameOverPanel; }                     //getter
+    public GameObject GameOverPanel { get => gameOverPanel; }
+    public GameObject GameOverFail { get => gameoverFail; }
 
     private void Start()
     {

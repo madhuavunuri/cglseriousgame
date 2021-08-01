@@ -29,9 +29,10 @@ public class QuizManager : MonoBehaviour
     public GameStatus GameStatus { get { return gameStatus; } }
 
     public List<QuizDataScriptable> QuizData { get => quizDataList; }
-
+   
     public void StartGame(int categoryIndex, string category)
     {
+        val = -1;
         currentCategory = category;
         correctAnswerCount = 0;
         gameScore = 0;
@@ -44,6 +45,7 @@ public class QuizManager : MonoBehaviour
         //select the question
         SelectQuestion();
         gameStatus = GameStatus.PLAYING;
+        
     }
     int val = -1;
     /// <summary>
@@ -109,9 +111,9 @@ public class QuizManager : MonoBehaviour
             //Yes, Ans is correct
             correctAnswerCount++;
             correct = true;
-            gameScore += 50;
+            gameScore += 1;
             quizGameUI.ScoreText.text = "Score:" + gameScore;
-            print("Correct");
+            print("Correct {{{{{{"+ "Score:" + gameScore);
         }
         else
         {
@@ -136,7 +138,16 @@ public class QuizManager : MonoBehaviour
     private void GameEnd()
     {
         gameStatus = GameStatus.NEXT;
-        quizGameUI.GameOverPanel.SetActive(true);
+
+        if(correctAnswerCount >= questions.Count)
+        {
+            quizGameUI.GameOverPanel.SetActive(true);
+        }
+        else
+        {
+            quizGameUI.GameOverFail.SetActive(true);
+        }
+       
 
         //fi you want to save only the highest score then compare the current score with saved score and if more save the new score
         //eg:- if correctAnswerCount > PlayerPrefs.GetInt(currentCategory) then call below line

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -136,5 +137,6 @@ public class GameController : MonoBehaviour
         {
             File.Delete(Application.persistentDataPath + "/userprofilecontainer.dat");
         }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
